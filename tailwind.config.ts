@@ -19,6 +19,25 @@ const config = {
     },
     extend: {
       colors: {
+
+        'black': '#000000',
+        'grayText': '#808087',
+        'darkGray': '#33333c', 
+        'velion':{
+          '000':'#FCF7F7',
+          '100' : '#F1F5FF',
+          '200' : '#D2DEFF',
+          '300' : '#B4C8FF',
+          '400' : '#91ADF9',
+          '500' : '#6E90ED',
+          '600' : '#5474CB',
+          '700' : '#3D5AA9',
+          '800' : '#2A4387',
+          '900' : '#1A2E65',
+          '901' : '#0E1C43',
+          '902' : '#030F30',
+          'nav':'#002253'
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

@@ -1,20 +1,31 @@
+import Header from "@/components/Header/Header";
 import HeroSection from "@/components/HeroSection";
-import { NavigationMenuDemo } from "@/components/Navbar";
-import { NavigationMenu } from "@/components/ui/navigation-menu";
-// import { NavigationMenuDemo } from "@/components/Navbar";
-import Image from "next/image";
+import { DropdownNav } from "@/components/dropdownNav";
+import { HeroParallaxDemo } from "@/components/parallax-homepage/Heroparallax";
+import { Whatwedo } from "@/components/whatwedo";
+// import RootLayoutInner from "@/components/Headermain.jsx"
 
 export default function Home() {
   return (
-    <main className="flex w-full h-full bg-green-600 flex-col items-center justify-between">
-    {/* <NavigationMenuDemo /> */}
-    {/* <NavigationMenu /> */}
+    <main className="flex w-full h-full flex-col items-center justify-between">
     <nav className="w-full">
+      <Header />
+      
 
-    <NavigationMenuDemo />
+            {/* <RootLayoutInner>
+
+            </RootLayoutInner> */}
+
+      
+      
+
     </nav>
 
-    <HeroSection /> 
+    <HeroSection />
+    <HeroParallaxDemo />
+    <Whatwedo />
+    {/* <DropdownNav   */}
+    <DropdownNav />
       
 
       
