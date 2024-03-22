@@ -1,6 +1,9 @@
+import { AuroraBackgroundDemo } from "@/components/Aurobackground";
+import {Footer} from "@/components/Footer";
 import Header from "@/components/Header/Header";
 import HeroSection from "@/components/HeroSection";
-import { DropdownNav } from "@/components/dropdownNav";
+// import { DropdownNav } from "@/components/dropdownNav";
+import { Industry } from "@/components/industries";
 import { HeroParallaxDemo } from "@/components/parallax-homepage/Heroparallax";
 import { Whatwedo } from "@/components/whatwedo";
 // import RootLayoutInner from "@/components/Headermain.jsx"
@@ -24,8 +27,10 @@ export default function Home() {
     <HeroSection />
     <HeroParallaxDemo />
     <Whatwedo />
-    {/* <DropdownNav   */}
-    <DropdownNav />
+    <Industry />
+    <AuroraBackgroundDemo />
+    <Footer />
+    {/* <DropdownNav /> */}
       
 
       

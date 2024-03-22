@@ -7,46 +7,46 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "AI & Data Services",
+    link: "",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "Software Development",
+    link: "",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/cursor.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "Software Consulting",
+    link: "",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/rogue.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "DevOps & MLOps",
+    link: "",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/editorially.png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    title: "Cybersecurity",
+    link: "",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/editrix.png",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    title: "StartUp and MVP Service",
+    link: "/",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "UI/UX Design",
+    link: "/",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
   },

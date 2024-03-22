@@ -5,7 +5,9 @@ import cloud from "@/public/assets/svgs/cloudinfra.svg"
 import datas from "@/public/assets/svgs/datas.svg" 
 import softdev from "@/public/assets/svgs/softdev.svg";
 
-import { Whatwemodel } from '@/types';
+
+
+import { Whatwemodel, Footer } from '@/types';
 
 export const header = {
     logo: Logo,
@@ -15,11 +17,11 @@ export const header = {
 
   export const nav = [
     {
-      title: 'how we work',
+      title: 'What We Do',
       link: '/how-we-work',
     },
     {
-      title: 'Our we work',
+      title: 'Our Work',
       link: '/our-work',
       additionalLinks: [
         {
@@ -123,3 +125,45 @@ export const whatwe:Whatwemodel[] = [
       link:'/services/training'
   }
 ]
+
+
+export const linksFooter:Footer[] = [
+  {
+      title:'Navigation',
+      subs:[
+          {
+              name:'What we do',
+              link:'/services',
+              dropdown:true
+          },
+          {
+              name:'Who we are',
+              link:'/aboutus'
+          },
+          {
+              name:'Contact us',
+              link:'/contactus'
+          },
+      ]
+  },
+  {
+      title:'Resources',
+      subs:[
+          {
+              name:'Blogs',
+              link:'/services',
+              dropdown:true
+          },
+          // {
+          //     name:'News Update',
+          //     link:'/aboutus'
+          // },
+          // {
+          //     name:'Blog',
+          //     link:'/blog'
+          // }
+      ]
+  }
+]
+
+

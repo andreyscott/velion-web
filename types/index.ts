@@ -6,3 +6,8 @@ export interface Whatwemodel {
     tcolor:string;
     link?:string;
 }
+
+export interface Footer {
+    title:string;
+    subs:any[];
+}
