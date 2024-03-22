@@ -93,7 +93,7 @@ export const Whatwedo = ()=> {
         <section className="h-fit ">
             <div className="container py-12 mx-auto text-black flex flex-col gap-[80px]">
                 <span className="flex flex-col gap-4 text-black items-center">
-                    <p className=" font-semibold text-sm xl:text-base leading-5">
+                    <p className=" font-semibold text-sm lg:text-base leading-5">
                         What we do
                     </p>
                     {/* fade rigth in aos animation */}
@@ -117,7 +117,7 @@ export const Whatwedo = ()=> {
                     </p>
                 </span>
 
-                <div className="w-full mx-auto items-center grid grid-cols-1 md:grid-cols-2 gap-y-4 lg:grid-cols-3 ">
+                <div className="w-full mx-auto items-center grid grid-cols-1 xl:grid-cols-3 gap-4 lg:grid-cols-3 ">
                     
                     {
                         whatwe.map((item,index)=> (
@@ -130,10 +130,7 @@ export const Whatwedo = ()=> {
           ease: "easeInOut",
         }}
                             key={index}
-                            // data-aos="fade-up"
-                            // data-aos-duration="1500"
-                            // data-aos-delay="300"
-                            // data-aos-once="true"
+                            
                              className={` border-t-[5px]  ${item.bcolor} w-full max-w-[350px] h-fit min-h-80 py-6 px-5 gap-3 rounded-b-md   bg-gray-100 flex flex-col items-start`}>
                                 <span className={`mx-auto w-full `}/>
                                 <span className="flex flex-col gap-[10px] text-left">

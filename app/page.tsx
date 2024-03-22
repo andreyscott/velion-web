@@ -10,7 +10,7 @@ import { Whatwedo } from "@/components/whatwedo";
 
 export default function Home() {
   return (
-    <main className="flex w-full h-full flex-col items-center justify-between">
+    <main className="flex w-full overflow-hiddenh-full flex-col items-center justify-between">
     <nav className="w-full">
       <Header />
       
@@ -25,7 +25,11 @@ export default function Home() {
     </nav>
 
     <HeroSection />
+
+  {/* hide over-flow and remove the bottom scroll bar */}
+  <div className=" w-full h-full overflow-hidden">
     <HeroParallaxDemo />
+  </div>
     <Whatwedo />
     <Industry />
     <AuroraBackgroundDemo />
