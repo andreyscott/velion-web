@@ -52,8 +52,8 @@ export function AuroraBackgroundDemo() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
 
-<div className="w-full mx-auto flex flex-col gap-[50px]">
-    <p className="my-0 text-[2.5em] font-[600] text-velion-700 leading-[1em]">
+<div className="w-full h-full my-9 md:py-16  mx-auto flex flex-col gap-9">
+    <p className="my-0 text-4xl font-bold text-velion-700 text-center">
         Get Started Today
     </p>
 
