@@ -53,11 +53,11 @@ export const Involved = () => {
 
 {/* grid  */}
 
-<div className='grid max-w-4xl p-0 m-0 grid-cols-1 gap-y-0.5 col gap-0 space-x-0 gap-x-0 lg:grid-cols-3'>
+<div className='grid p-0 m-0 grid-cols-1 max-w-5xl gap-y-0.5 col gap-0 space-x-0 gap-x-0 lg:grid-cols-3'>
     {involved.map((item, index) => (
         
         <article key={index}
-  className="w-80 h-48 m-0 bg-gradient-to-tr from-[#1f0815] to-[#c33082] shadow-sm transition hover:shadow-lg p-8 sm:p-9 md:p-10"
+  className=" transition-all duration-500 hover:scale-105 ease-in-out  w-80 h-60 m-0 bg-gradient-to-tr from-[#1f0815] to-[#c33082] shadow-sm hover:shadow-lg p-8 sm:p-9 md:p-10"
 >
   <span className="inline-block rounded border-white border-[2px]  p-1 text-white">
     {item.icon}

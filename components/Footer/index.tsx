@@ -16,10 +16,10 @@ import { linksFooter } from "@/data/"
 export const Footer = ()=> {
 
     return (
-      <footer aria-label="Site Footer" className="bg-black border border-t-white w-full h-fit  py-20">
+      <footer aria-label="Site Footer" className="bg-black border border-l-black   border-t-white w-full h-fit  py-20">
             <div className="container text-white flex flex-col gap-[50px] mx-auto">
                 <div className="w-full flex flex-col lg:flex-row gap-[50px] md:gap-[40px] justify-between items-start ">
-                    <div className="flex flex-col items-start gap-[10px]">
+                    <div className="flex flex-col w-80 lg:w-96 items-start gap-[10px]">
                         <Image
                          src={Velion}
                           loading="lazy"

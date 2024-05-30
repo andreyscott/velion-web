@@ -17,7 +17,7 @@ export default function Home() {
       <div className="bg-cover bg-center bg-no-repeat w-full h-full z-20" style={{     
      backgroundImage: `url(${bkg3.src})`,
       width: '100%',
-      height: '100%',
+      height: '70vh',
 }}>
   
     <nav className="w-full">

@@ -22,23 +22,23 @@ const components: { title: string; href: string; description: string }[] = [
     description:
       "A modal dialog that interrupts the user with important content and expects a response.",
   },
-  {
-    title: "Hover Card",
-    href: "/docs/primitives/hover-card",
-    description:
-      "For sighted users to preview content available behind a link.",
-  },
-  {
-    title: "Progress",
-    href: "/docs/primitives/progress",
-    description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
-  },
-  {
-    title: "Scroll-area",
-    href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
-  },
+  // {
+  //   title: "Hover Card",
+  //   href: "/docs/primitives/hover-card",
+  //   description:
+  //     "For sighted users to preview content available behind a link.",
+  // },
+  // {
+  //   title: "Progress",
+  //   href: "/docs/primitives/progress",
+  //   description:
+  //     "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+  // },
+  // {
+  //   title: "Scroll-area",
+  //   href: "/docs/primitives/scroll-area",
+  //   description: "Visually or semantically separates content.",
+  // },
   {
     title: "Tabs",
     href: "/docs/primitives/tabs",
@@ -93,7 +93,7 @@ export function NavigationMenuDemo() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Components</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[350px] gap-3 p-4 md:w-[400px] md:grid-cols-1 lg:w-[450px] ">
               {components.map((component) => (
                 <ListItem
                   key={component.title}
@@ -109,7 +109,7 @@ export function NavigationMenuDemo() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Utilities</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+            <ul className="grid gap-1 p-4 md:w-[350px] lg:w-[400px] lg:grid-cols-1]">
               <ListItem href="/docs/utilities/colors" title="Colors">
                 A collection of color palettes and color utilities.
               </ListItem>
