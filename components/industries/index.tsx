@@ -93,7 +93,6 @@ export const Industry = () => {
               <div className={`flex items-center justify-center w-16 h-16 rounded-full border-2  ${item.color}  `}>
                {item.icon}
                
-               {/* <Image src={item.icon} alt={item.title} /> */}
               </div>
               <h3 className="text-lg font-semibold">{item.title}</h3>
             </motion.div>

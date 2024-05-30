@@ -55,45 +55,25 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function NavigationMenuDemo() {
   return (
-    <NavigationMenu className="bg-red-400 w-full max-w-screen-xl px-2 flex items-center justify-around">
-      {/* logo  */}
-      <Link className="flex justify-center items-center py-6" href={"/"}>
-
-        <span className="text-3xl leading-5 font-bold text-white">
-          
-          Velion
-        </span>
-
-
-
-      </Link>
-      <NavigationMenuList className="bg-violet-500">
-        {/* About  */}
+    <NavigationMenu className="hidden lg:flex">
+      <NavigationMenuList>
         <NavigationMenuItem>
-          {/* <Link href="/about" passHref> */}
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              About
-            </NavigationMenuLink>
-          {/* </Link> */}
-        </NavigationMenuItem>
-        <NavigationMenuItem className="">
-          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Join Us</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid bg-red-500  gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
-                    className="flex bg-green-500 h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
                     {/* <Icons.logo className="h-6 w-6" /> */}
-                    stuff
                     <div className="mb-2 mt-4 text-lg font-medium">
-                      shadcn/ui
+                      Logo
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components built with Radix UI and
-                      Tailwind CSS.
+                    A start up company that is on the rise.
+                      
                     </p>
                   </a>
                 </NavigationMenuLink>
@@ -127,6 +107,22 @@ export function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
+          <NavigationMenuTrigger>Utilities</NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+              <ListItem href="/docs/utilities/colors" title="Colors">
+                A collection of color palettes and color utilities.
+              </ListItem>
+              <ListItem href="/docs/utilities/spacing" title="Spacing">
+                A collection of margin and padding utilities.
+              </ListItem>
+              <ListItem href="/docs/utilities/typography" title="Typography">
+                A collection of text utilities.
+              </ListItem>
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Documentation
@@ -143,7 +139,7 @@ const ListItem = React.forwardRef<
   React.ComponentPropsWithoutRef<"a">
 >(({ className, title, children, ...props }, ref) => {
   return (
-    <li className="bg-blue-400">
+    <li>
       <NavigationMenuLink asChild>
         <a
           ref={ref}

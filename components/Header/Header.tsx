@@ -5,8 +5,8 @@
 import React, { useState, useEffect } from 'react';
 
 import motion from 'framer-motion'
-import Velion from '@/public/assets/svgs/velionwhite.svg'
-import VelionBlack from '@/public/assets/svgs/velionfooter.svg'
+import Velion from '@/public/assets/logo-mlops-white.svg'
+import VelionBlack from '@/public/assets/svgs/bkg3 (1).jpg'
 
 // import header data
 import { header } from '../../data';
@@ -20,6 +20,7 @@ import NavMobile from './NavMobile';
 import Link from 'next/link';
 import { MotionConfig } from 'framer-motion';
 import Image from 'next/image';
+import { NavigationMenuDemo } from '../Navbar';
 
 
 
@@ -38,19 +39,16 @@ const Header = ( ) => {
   const { logo, logow  } = header;
   return (
     <header
-      className={`${
-        isActive ? ' ' : 'bg-velion-800 bg-cover bg-no-repeat lg:px-32'
-      }
-       sticky left-0 right-0 mx-auto flex justify-between items-center px-4 z-30 transition-all duration-700`}
+      className={` sticky bg-transparent top-0 left-0 right-0 mx-auto flex justify-between items-center px-4 z-30 transition-all duration-700`}
     >
    
     {/* className='bg-white bg-cover bg-no-repeat py-4 md:py-5 mx-auto flex justify-between items-center px-[20px] lg:px-[60px] z-30 transition-all duration-300 */}
       {/* logo */}
       <div className='w-full  flex justify-between'>
 
-      <Link className='py-4' href='/'>
+      <Link className='pt-6 ml-6' href='/'>
           <Image 
-        className='h-[50px] w-full object-contain' 
+        className='h-[60px] w-full object-contain' 
         src={navMobile ? VelionBlack : Velion }
         width={navMobile ? 100 : 300}
         height={navMobile ? 100 : 200}
@@ -62,7 +60,8 @@ const Header = ( ) => {
 
 
       {/* nav - initially hidden - show in desktop mode */}
-      <Nav />
+      {/* <Nav /> */}
+      <NavigationMenuDemo />
 
       {/* nav menu button - hide on desktop */}
       <div

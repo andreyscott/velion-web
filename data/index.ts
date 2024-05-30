@@ -129,7 +129,7 @@ export const whatwe:Whatwemodel[] = [
 
 export const linksFooter:Footer[] = [
   {
-      title:'Navigation',
+      title:'About us',
       subs:[
           {
               name:'What we do',
