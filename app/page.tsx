@@ -9,6 +9,7 @@ import bkg3 from '../public/assets/images/bkg3.jpg'
 import { Involved } from "@/components/involved";
 import Sponsor from "@/components/sponsors";
 
+
 export default function Home() {
   return (
     <main className="flex w-full flex-col items-center justify-between">
