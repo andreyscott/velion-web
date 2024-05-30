@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from 'react'
 
 const Sponsor = () => {
@@ -11,7 +12,7 @@ const Sponsor = () => {
                
                  {/* new  */}
 
-                 <img
+                 <Image
                   className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
                   src="https://mlops.community/wp-content/themes/mlops/assets/img/tecton-color.png"
                   alt="tenogo"
@@ -19,7 +20,7 @@ const Sponsor = () => {
                   height={48}
                 />
                 {/* 2 */}
-                <img
+                <Image
                   className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
                   src="https://mlops.community/wp-content/themes/mlops/assets/img/wandb.png"
                   alt="wan b"
@@ -27,7 +28,7 @@ const Sponsor = () => {
                   height={48}
                 />
 
-<img
+<Image
                   className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
                   src="https://mlops.community/wp-content/themes/mlops/assets/img/quantunblack.png"
                   alt="Quntum b"
@@ -35,7 +36,7 @@ const Sponsor = () => {
                   height={48}
                 />
 
-<img
+<Image
                   className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
                   src="https://mlops.community/wp-content/themes/mlops/assets/img/aws-logo.png"
                   alt="a ws "
@@ -43,7 +44,7 @@ const Sponsor = () => {
                   height={48}
                 />
 
-<img
+<Image
                   className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
                   src="https://mlops.community/wp-content/themes/mlops/assets/img/nvidia.png"
                   alt="nvidia"
@@ -51,7 +52,7 @@ const Sponsor = () => {
                   height={48}
                 />
 
-<img
+<Image
                   className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
                   src="https://mlops.community/wp-content/themes/mlops/assets/img/zilliz.jpg"
                   alt="zilliz"
@@ -60,35 +61,35 @@ const Sponsor = () => {
                 />
                
                {/* old  */}
-                <img
+                <Image
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
                   alt="Transistor"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
                   alt="Reform"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
                   className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                   src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
                   alt="Tuple"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
                   className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
                   src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
                   alt="SavvyCal"
                   width={158}
                   height={48}
                 />
-                <img
+                <Image
                   className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
                   src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
                   alt="Statamic"

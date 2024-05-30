@@ -7,7 +7,7 @@ import Velion from '@/public/assets/logo-mlops-white.svg'
 import { FaPaperPlane } from "react-icons/fa";
 
 import { FaHashtag, FaPlay, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa6";
-import { LuRadioTower } from "react-icons/lu";
+// import { LuRadioTower } from "react-icons/lu";
 
 
 import { linksFooter } from "@/data/"
