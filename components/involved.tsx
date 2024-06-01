@@ -2,7 +2,7 @@
 import React from 'react'
 import { FaHashtag, FaPlay, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa6";
 import { LuRadioTower } from "react-icons/lu";
-import { IconContext } from "react-icons";
+// import { IconContext } from "react-icons";
 // card data 
 
 const involved = [
@@ -46,14 +46,14 @@ export const Involved = () => {
         <div className="w-full flex flex-col justify-center items-center mx-auto  ">
             {/* title text upper case  */}
 
-        <div className='text-center text-white uppercase text-lg font-bold font-mono tracking-wide leading-5 xl:text-xl pb-8 xl:pb-12'>
-            How to Get Involved
+        <div className='text-center max-w-lg 2xl:max-w-xl text-white text-md font-medium font-mono tracking-wider leading-6 2xl:text-xl py-12 xl:py-14'>
+        We’re bringing together people that relish connected data, are willing to debate new approaches to understanding networks, and want to share tips in working with graphs.
 
             </div>
 
 {/* grid  */}
 
-<div className='grid p-0 m-0 grid-cols-1 max-w-5xl gap-y-0.5 col gap-0 space-x-0 gap-x-0 lg:grid-cols-3'>
+<div className='grid p-0 m-0 grid-cols-1 max-w-5xl pb-12 xl:pb-14 gap-y-0.5 col gap-0 space-x-0 gap-x-0 lg:grid-cols-3'>
     {involved.map((item, index) => (
         
         <article key={index}

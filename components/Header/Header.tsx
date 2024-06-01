@@ -5,7 +5,7 @@
 import React, { useState, useEffect } from 'react';
 
 import motion from 'framer-motion'
-import Velion from '@/public/assets/logo-mlops-white.svg'
+import Velion from '@/public/assets/images/GraphGeeks-Logo-White.png'
 import VelionBlack from '@/public/assets/svgs/bkg3 (1).jpg'
 
 // import header data

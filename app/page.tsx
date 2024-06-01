@@ -8,6 +8,8 @@ import { Industry } from "@/components/industries";
 import bkg3 from '../public/assets/images/bkg3.jpg'
 import { Involved } from "@/components/involved";
 import Sponsor from "@/components/sponsors";
+import Section from "@/components/section2";
+import { Teams } from "@/components/Teams";
 
 
 export default function Home() {
@@ -27,8 +29,10 @@ export default function Home() {
     </nav>
 
     <HeroSection />
+    <Section />
     <Involved />
     <Sponsor />
+    <Teams />
     <Industry />
     <Footer />
 

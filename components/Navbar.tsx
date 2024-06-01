@@ -14,6 +14,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import Image from "next/image"
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -69,23 +70,24 @@ export function NavigationMenuDemo() {
                   >
                     {/* <Icons.logo className="h-6 w-6" /> */}
                     <div className="mb-2 mt-4 text-lg font-medium">
-                      Logo
+                      <Image
+                       src="/assets/images/GraphGeeks-Logo-White.png" alt="logo" width={50} height={50} />
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                    A start up company that is on the rise.
+                    We’re bringing together people that relish connected data, and the power of graph databases.
                       
                     </p>
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="Introduction">
-                Re-usable components built using Radix UI and Tailwind CSS.
+              <ListItem href="https://discord.com/invite/hXyHmvW3Vy" title="Join our Discord">
+                Join our Discord community to connect with other graph enthusiasts.
               </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
-                How to install dependencies and structure your app.
+              <ListItem href="" title="Watch Our Videos">
+                Watch our videos on YouTube to learn more about graph databases.
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
-                Styles for headings, paragraphs, lists...etc
+              <ListItem href="mailto:" title="Email">
+                Send us an email to get in touch with our team.
               </ListItem>
             </ul>
           </NavigationMenuContent>

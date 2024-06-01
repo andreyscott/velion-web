@@ -15,7 +15,8 @@ const HeroSection = () => {
       <div className="mx-auto  py-16 w-full h-fit text-center flex justify-center items-center ">
 
         <h3 className="text-2xl font-bold font-mono leading-8 text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-          The Company Community of the Future
+          We love graphs.
+Do you?
           </h3>
       </div>
 
