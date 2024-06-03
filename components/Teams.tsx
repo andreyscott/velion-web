@@ -34,38 +34,50 @@ We’re starting <span className='font-medium'> GraphGeeks</span> to bring toget
 </p>
             </div>
 
-            <div className=' w-full flex justify-center items-center'>
-              <div className='flex flex-col px-3'>
+            <div className=' w-full mt-10 gap-x-2 md:mt-0 flex flex-col md:flex-row justify-center items-center'>
 
-                <Image 
-                src="/assets/images/Hodler-Headshot1.png"
-                alt='headshot'
-                width={150}
-                height={400}
-                
-                />
+            <article className="relative w-60 h-fit overflow-hidden rounded-xl transition hover:shadow-lg">
+  <Image
+   src="/assets/images/Hodler-Headshot1.png"
+   alt='headshot'
+    className="absolute inset-0 h-full w-full rounded-xl  object-cover"
+    layout="fill"
+    
+  />
 
-                <button >
-                    Connet Amy
-                </button>
+  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+    <div className=" w-full flex justify-center items-center mx-auto">
+      {/* contact with Amy button center dark  */}
+      <a href='https://linkedIn.com/' className="mx-auto w-36 h-12 bg-gray-900/90 text-white text-center flex justify-center items-center font-semibold rounded-lg mt-4">
+        Contact Amy
+      </a>
+      
+    </div>
+  </div>
+</article>
 
-              </div>
 
-              <div className='flex flex-col px-3'>
 
-<Image 
+<article className="relative  w-60 h-fit overflow-hidden rounded-xl transition hover:shadow-lg">
+  <Image
 src="/assets/images/Dennis_Portrait2.jpg"
-alt='headshot'
-width={150}
-height={400}
+   alt='headshot'
+    className="absolute inset-0 h-full w-full rounded-xl  object-cover"
+    layout="fill"
+    
+  />
 
-/>
+  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+    <div className=" w-full flex justify-center items-center mx-auto">
+      {/* contact with Amy button center dark  */}
+      <a href='https://linkedIn.com/' className="mx-auto w-36 h-12 flex justify-center items-center bg-gray-900/90 text-white font-semibold rounded-lg mt-4">
+        Contact Dennis
+      </a>
+      
+    </div>
+  </div>
+</article>
 
-<button >
-    Connet Dennis
-</button>
-
-</div>
 
             
             </div>

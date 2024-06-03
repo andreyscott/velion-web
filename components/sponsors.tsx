@@ -110,9 +110,9 @@ const Sponsor = () => {
             bg-gradient-to-tr from-[#1f0815] to-[#c33082] rounded-tr-3xl text-white shadow-lg px-6 lg:px-8
             ">
 
-                <p className='text-md xl:text-lg tracking-wide text-centser font-serif max-w-md'>
+                <p className='text-md font-mono xl:text-lg tracking-wide text-center max-w-lg'>
 
-                The MLOps Community fills the swiftly growing need to share real-world Machine Learning Operations best practices from engineers in the field. While MLOps shares a lot of ground with DevOps, the differences are as big as the similarities. We needed a community laser-focused on solving the unique challenges we deal with every day building production AI/ML pipelines. We’re in this together. Come learn with us in a community open to everyone. Share knowledge. Ask questions. Get answers.
+                We’re just getting started, so this is a landing spot for people that want to share their passion for graphs and networks. You might be a researcher, developer, data scientist, journalist, or perhaps you just enjoy a good graph story. Our goal is to share resources and highlight people with graph talent. We’re looking for sponsors and partners that want to help us grow and reach more people. If you’re interested in supporting us, please get in touch. We’d love to hear from you.
 
 
                     </p>

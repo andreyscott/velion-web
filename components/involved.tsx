@@ -46,8 +46,9 @@ export const Involved = () => {
         <div className="w-full flex flex-col justify-center items-center mx-auto  ">
             {/* title text upper case  */}
 
-        <div className='text-center max-w-lg 2xl:max-w-xl text-white text-md font-medium font-mono tracking-wider leading-6 2xl:text-xl py-12 xl:py-14'>
-        We’re bringing together people that relish connected data, are willing to debate new approaches to understanding networks, and want to share tips in working with graphs.
+        <div className='text-center  2xl:max-w-xl text-white text-2xl font-semibold font-mono tracking-wide 2xl:text-3xl py-12 xl:py-14'>
+
+        Let’s create a graph of people that love graphs.
 
             </div>
 
